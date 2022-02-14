@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Policy</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="identity">
+        <img src="logo.png" alt="Logo">
+    </div>
+    <div class="heading">
+        <h1>PURCHASE POLICY</h1>
+    </div>
+</header>
+
+<div class="wrapper">
+    <div class="title">
+      Enter The Following Details
+    </div>
+    <div class="form">
+      <form method="post" action="https://www.daraz.pk/">
+
+       <div class="inputfield">
+          <label>Number : </label>
+          <input type="number" class="input" onfocus="this.placeholder=''" placeholder="+92" required>
+       </div>  
+      <div class="inputfield">
+          <label>Policy Number :</label>
+          <input type="number" class="input" onfocus="this.placeholder=''" placeholder="mcs-0011332" required>
+       </div> 
+      <div class="inputfield">
+        <label>Date : </label>
+        <input type="datetime-local" class="input" required>
+     </div> 
+
+     <div class="inputfield">
+      <label>Risked SD : </label>
+      <input type="text" class="input"  onfocus="this.placeholder=''" placeholder="Enter Risked SD" required>
+    </div>
+      <div class="inputfield">
+        <label>Risked ED : </label>
+        <input type="text" class="input"  onfocus="this.placeholder=''" placeholder="Enter Risked ED" required>
+      </div>
+      <div class="inputfield">
+          <label>Noof Dogs : </label>
+          <input type="text" class="input"  onfocus="this.placeholder=''" placeholder="Enter noofDogs" required>
+      </div>
+      <div class="inputfield terms">
+        <label>Status : </label> 
+          <label class="check" >
+            <input type="checkbox" required>
+            <span class="checkmark" ></span>
+          </label>
+          <p>Policy Terms!</p>
+       </div> 
+
+      <div class="inputfield">
+        <input type="reset" value="Reset" class="btn">
+        <input type="submit" value="Register" class="btn">
+      </div>
+    </div>
+</div>	
+</form>
+</body>
+</html>
